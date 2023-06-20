@@ -5,8 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('sobre/', views.sobre, name='sobre')
+    path('sobre/', views.sobre, name='sobre'),
+    path('perguntas', views.ultimas_perguntas, name='ultimas_perguntas')
 ]
 
-# .\venv\Scripts\activate.bat
-# python manage.py runserser
