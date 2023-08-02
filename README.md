@@ -1,1 +1,2 @@
-"# django-pools" 
+"# django-polls" 
+
